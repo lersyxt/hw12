@@ -1,0 +1,59 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
+  padding: 2rem;
+}
+
+.article {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.drop-cap::first-letter {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  float: left;
+  margin-right: 0.75rem;
+  color: #7c3aed;
+}
+
+.quote {
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: #444;
+  background-color: #f4f3ff;
+  border-left: 0.25rem solid #7c3aed;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+}
